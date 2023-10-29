@@ -37,13 +37,13 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
 
 ### Find User
 - **HTTP Method**: GET
-- **Endpoint**: /api/v1/User{UserId}
+- **Endpoint**: /api/v1/User{id}
 - **Description**: Retrieve a user by ID
 
 
 ### Update User
 - **HTTP Method**: PUT
-- **Endpoint**: /api/roles/{roleId}
+- **Endpoint**: /api/v1/User{id}
 - **Description**: Update an existing role by ID
 - Request Body:
   ```json
@@ -57,7 +57,7 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
   }
 ### Delete User
 - **HTTP Method**: DELETE
-- **Endpoint**: /api/v1/User{roleId}
+- **Endpoint**: /api/v1/User{id}
 - **Description**: Delete a user by ID
 
 ## Database
