@@ -29,9 +29,9 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
   {
       "id" : "int",
       "name": "string",
-      "address" : "string",
       "email" : "string",
-      "contactnumber" : "string"
+      "address" : "string",
+      "contactNumber" : "string"
         
   }
 
@@ -50,9 +50,9 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
   {
       "id" : "int",
       "name": "string",
-      "address" : "string",
       "email" : "string",
-      "contactnumber" : "string"
+      "address" : "string",
+      "contactNumber" : "string"
         
   }
 ### Delete User
