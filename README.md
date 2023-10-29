@@ -6,8 +6,6 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
 - API access  using Spring Security
 - 
 # Table of Contents
-
-
 - [API Endpoints](#api-endpoints)
   - [Create USER](#create-user)
   - [Find User](#find-user)
@@ -16,6 +14,7 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
 - [Database](#database)
 - [Testing with Postman](#testing-with-postman)
 - [Setup](#setup)
+
 
 
 
