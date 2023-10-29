@@ -1,6 +1,6 @@
-# Role Management API
+# User Management API
 
-This is a Spring Boot REST API for managing user roles with the following capabilities:
+This is a Spring Boot REST API for managing user  with the following capabilities:
 
 - Create, Find, Update and Delete
 - API access  using Spring Security
@@ -9,7 +9,7 @@ This is a Spring Boot REST API for managing user roles with the following capabi
 
 ### Create USER
 - **HTTP Method**: POST
-- **Endpoint**: `/api/User
+- **Endpoint**: /api/v1/User
 - **Description**: Create a new user
 - **Request Body**:
   ```json
@@ -24,7 +24,7 @@ This is a Spring Boot REST API for managing user roles with the following capabi
 
 ### Find User
 - **HTTP Method**: GET
-- **Endpoint**: /api/roles/{UserId}
+- **Endpoint**: /api/v1/User{UserId}
 - **Description**: Retrieve a user by ID
 
 
@@ -44,7 +44,7 @@ This is a Spring Boot REST API for managing user roles with the following capabi
   }
 ### Delete User
 - **HTTP Method**: DELETE
-- **Endpoint**: /api/roles/{roleId}
+- **Endpoint**: /api/v1/User{roleId}
 - **Description**: Delete a user by ID
 
 ## Database
@@ -61,4 +61,4 @@ The API uses a PostgreSQL database to store role information.
    git clone https://github.com/kaviyadass/assigment.git
 - Make sure you have PostgreSQL installed and create a database.
 - Configure the database connection in application.properties.
-- Run the application using Spring Boot or your favorite IDE.
+- Run the application using Spring Boot or your favorite IDE on local server **9090** .
