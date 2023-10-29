@@ -44,7 +44,7 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
 ### Update User
 - **HTTP Method**: PUT
 - **Endpoint**: /api/v1/User{id}
-- **Description**: Update an existing role by ID
+- **Description**: Update an existing user by ID
 - Request Body:
   ```json
   {
