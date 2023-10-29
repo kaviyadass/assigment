@@ -58,7 +58,7 @@ The API uses a PostgreSQL database to store role information.
 - Clone this repository.
 
    ```bash
-   git clone https://github.com/kaviyadass/assignment
+   git clone https://github.com/kaviyadass/assigment.git
 - Make sure you have PostgreSQL installed and create a database.
 - Configure the database connection in application.properties.
 - Run the application using Spring Boot or your favorite IDE.
