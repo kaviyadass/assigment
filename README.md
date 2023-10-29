@@ -61,11 +61,10 @@ This is a Spring Boot REST API for managing user  with the following capabilitie
 - **Description**: Delete a user by ID
 
 ## Database
-The API uses a PostgreSQL database to store role information.
+The API uses a PostgreSQL database to store user information.
 
 ## Testing with Postman
 - You can use Postman to test the API by sending HTTP requests to the specified endpoints. 
-- Make sure to include a valid JWT token in the request headers for authentication.
 
 ## Setup
 - Clone this repository.
