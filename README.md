@@ -22,13 +22,13 @@ This is a Spring Boot REST API for managing user roles with the following capabi
         
   }
 
-### Find Role
+### Find User
 - **HTTP Method**: GET
 - **Endpoint**: /api/roles/{UserId}
 - **Description**: Retrieve a user by ID
 
 
-### Update Role
+### Update User
 - **HTTP Method**: PUT
 - **Endpoint**: /api/roles/{roleId}
 - **Description**: Update an existing role by ID
@@ -42,7 +42,7 @@ This is a Spring Boot REST API for managing user roles with the following capabi
       "contactnumber" : "string"
         
   }
-### Delete Role
+### Delete User
 - **HTTP Method**: DELETE
 - **Endpoint**: /api/roles/{roleId}
 - **Description**: Delete a user by ID
