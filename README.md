@@ -2,9 +2,8 @@
 
 This is a Spring Boot REST API for managing user  with the following capabilities:
 
-- Create, Find, Update and Delete
-- API access  using Spring Security
-- 
+   Create, Find, Update and Delete
+  
 # Table of Contents
 - [API Endpoints](#api-endpoints)
   - [Create USER](#create-user)
